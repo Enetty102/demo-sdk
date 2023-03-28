@@ -154,7 +154,7 @@ const Onboarding: React.FC<OnboardingProps> = ({ setValue }) => {
         </div>
       ) : (
         <div className={classes.container}>
-          <div className={classes.element}>
+          {/* <div className={classes.element}>
             <p className={classes.text}>
               Demo dapp pays for the wallet deployment cost.
             </p>
@@ -184,7 +184,7 @@ const Onboarding: React.FC<OnboardingProps> = ({ setValue }) => {
               </li>
             </ul>
             <Button title="Go to Use Cases" onClickFunc={() => setValue(2)} />
-          </div>
+          </div> */}
           <div className={classes.element}>
             <p className={classes.text}>
               User pays for wallet deployment cost.
